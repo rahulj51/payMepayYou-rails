@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :payment_infos
   resources :transactions
   resources :tags
   resources :participants
